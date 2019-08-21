@@ -1,0 +1,25 @@
+//config
+@import 'partials/_fonts.scss';
+@import 'partials/_vars.scss';
+@import 'partials/_mixins.scss';
+@import 'partials/_sprite.scss';
+
+//libs
+@import 'partials/animate.min.scss';
+@import 'partials/jquery.arcticmodal-0.4.scss';
+@import 'partials/jquery.fancybox.min.scss';
+@import 'partials/jquery.formstyler.scss';
+@import 'partials/jquery.formstyler.theme.scss';
+@import 'partials/swiper.scss';
+
+//reset
+@import 'partials/reset.scss';
+
+//components
+// @import 'components/header.scss';
+// @import 'components/footer.scss';
+// @import 'components/modal.scss';
+
+//common
+@import 'styles.scss';
+@import 'pages.scss';

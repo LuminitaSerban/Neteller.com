@@ -1,0 +1,47 @@
+.arcticmodal-overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	height: 100%;
+}
+.arcticmodal-container {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	overflow: auto;
+	height: 100%;
+	.arcticmodal-container_table {
+		display: table;
+		border-collapse: collapse;
+		height: 100%;
+		margin: 0 auto;
+		padding: 0;
+		border: 0;
+		.arcticmodal-container_td {
+			display: table-cell;
+			margin: 0;
+			padding: 24px 0;
+			vertical-align: middle;
+			border: 0;
+			.arcticmodal-error {
+				padding: 20px;
+				color: #fff;
+				border-radius: 10px;
+				background: #000;
+			}
+			.arcticmodal-loading {
+				width: 80px;
+				height: 80px;
+				border-radius: 10px;
+				background: #000 url(../img/loading.gif) no-repeat 50% 50%;
+			}
+		}
+	}
+}
