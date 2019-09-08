@@ -1,0 +1,104 @@
+footer {
+    background-color: #373737;
+    padding: 3.125rem 0 1.25rem 0;
+    .top_footer_container {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #646464;
+        nav {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: flex-start;
+            ul {
+                font-size: .875rem;
+                list-style: none;
+                // width: 20%;
+                min-width: 40%;
+                padding: 0 .9375rem 1.875rem;
+                li {
+                    .marg_right {
+                        margin-right: .875rem;
+                    }
+                    h5 {
+                        color: #fff;
+                        font-weight: 700;
+                        color: #fff;
+                        border-bottom: 1px solid #646464;
+                        padding-bottom: .3125rem;
+                        margin-top: .625rem;
+                        margin-bottom: .625rem;
+                        font-size: 1.125rem;
+                    }
+                    a {
+                        color: silver;
+                    }
+                }
+            }
+        }
+        .logo_pay_safe .logo_container {
+            img {
+                margin-top: 1em;
+                margin-left: auto;
+                display: block;
+                width: 150px;
+                max-width: 100%;
+            }
+        }
+    }
+    .form_container {
+        background: inherit;
+        .select {
+            color: #b3b3b3;
+            h2 {
+                color: #b3b3b3;
+            }
+            .sign_up_btn:hover {
+                background-color: #69952f;
+            }
+        }
+        .line_grey span {
+            background-color: #646464;
+        }
+    }
+    .bottom_footer {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+        display: flex;
+        justify-content: space-around;
+        small {
+            font-size: 60%;
+            line-height: 2.5;
+            margin-top: 3.125rem;
+            color: silver;
+            padding: 0 0 1.25rem 0;
+            a {
+                color: silver;
+            }
+        }
+        .logo_verisign_container {
+            width: 40%;
+            img {
+                float: right;
+                transform: translate(0, 100%);
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 40.0625em) {
+    footer {
+        padding-bottom: 2.5rem;
+        nav ul li h5 {
+            margin-top: 1.25rem;
+            font-size: 1.125rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 64.0625em) {
+    .top_footer_container {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+    }
+}

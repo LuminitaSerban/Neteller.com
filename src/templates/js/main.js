@@ -1,0 +1,10 @@
+//=include partials/jquery-1.11.1.min.js
+//=include partials/jquery.arcticmodal-0.4.min.js
+//=include partials/svgxuse.min.js
+//=include partials/jquery.tabslet.min.js
+//=include partials/jquery.fancybox.min.js
+//=include partials/vanillaTextMask.js
+//=include partials/jquery.formstyler.min.js
+//=include partials/swiper.min.js
+//=include partials/hammer.min.js
+//=include partials/scripts.js

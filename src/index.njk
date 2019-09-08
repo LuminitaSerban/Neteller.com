@@ -1,6 +1,24 @@
-{% extends "templates/layout.njk" %}
-{% set pageTitle = "Home page" %}
+{% extends "templates/layout.njk" %} {% set pageTitle = "Home page" %} {% block content %}
 
-{% block content %}
+<div class="second_block">
+    <div class="img_bg">
+        <div class="bg_blur">
+        </div>
+        <div class="info_second_block">
+            <h1>Shop securely, transfer money anywhere in the world, access your funds instantly</h1>
+            <p>Trusted by millions</p>
+            <div class="btn_container">
+                <button class="green_btn">Join for free</button>
+                <button class="green_btn white_btn"><img class="youtube_icon" src="../img/youtube.png" alt="youtube icon">What is NETELLER?</button>
+            </div>
+            <div class="arrow">
+                <a href="#"></a>
+                <img src="./img/down-arrow.png" alt="arrow in circle">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
 
 {% endblock %}
